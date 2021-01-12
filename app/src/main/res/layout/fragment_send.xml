@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="218dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/educacion"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/rowF"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_perm_identity_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/tvF"
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:text="@string/qF"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_add_shopping_cart_black_24dp"
+                        android:text="¿Qué son los microgastos?" />
+
+                    <TextView
+                        android:id="@+id/tvM"
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:text="@string/qM"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowA"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_monetization_on_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/tvA"
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:text="@string/qA"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowI"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_trending_up_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/tvI"
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:text="@string/qI"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_healing_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/tvS"
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:text="@string/qS"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

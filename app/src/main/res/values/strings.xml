@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SAFEP</string>
+    <string name="nombre">Sistema de Apoyo Educativo de Finanzas Personales</string>
+    <string name="enter_email">usuario@gmail.com</string>
+    <string name="enter_password">Ingrese una contraseña</string>
+    <string name="enter_name">Ingrese tu nombre</string>
+    <string name="usuario">Registrar usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="not">Notificaciones</string>
+    <string name="Gastos">Gastos</string>
+    <string name="Ingresos">Ingresos</string>
+    <string name="Balance">Balance</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+    <string name="menu_home">MicroGastos</string>
+    <string name="menu_gallery">Graficos</string>
+    <string name="menu_slideshow">Ahorro</string>
+    <string name="menu_tools">Inversion</string>
+    <string name="menu_share">Foro</string>
+    <string name="menu_send">Educación</string>
+    <string name="name">Nombre:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="botonRegistro">Registrarse</string>
+    <string-array name="Categorias">
+        <item>Categoria</item>
+        <item>Comida</item>
+        <item>Transporte</item>
+        <item>Entretenimiento</item>
+        <item>Cigarrillos</item>
+        <item>Cafe</item>
+        <item>Mascota</item>
+        <item>Regalos</item>
+        <item>Personal</item>
+        <item>Golosinas</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="Ingresos">
+        <item>Categoria</item>
+        <item>Salario</item>
+        <item>Premios</item>
+        <item>Ventas</item>
+        <item>Inversiones</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>Gastos</item>
+        <item>Ingresos</item>
+    </string-array>
+    <string name="Monto">$ 0.00</string>
+    <string name="AddS">Añadir</string>
+    <string name="AddE">Añadir Ingreso</string>
+    <string name="setDate">Aceptar</string>
+    <string name="Month">Mes</string>
+    <string name="Day">Día</string>
+    <string name="Year">Año</string>
+    <string name="Fecha">29/06/2001</string>
+    <string name="Refresh">Mostrar</string>
+    <string name="Lista">Lista del dia</string>
+    <string name="Bal">Balance del mes</string>
+    <string name="Total">Total dia:</string>
+    <string name="GraficasDia">Graficas del mes</string>
+    <string name="NombreAhorro">Planes de ahorro</string>
+    <string name="FinAhorro">Fecha de termino del plan</string>
+    <string name="CantidadAhorro">Cantidad a ahorrar</string>
+    <string name="GenPlan">Crear Plan</string>
+    <string name="Agregar">Guardar</string>
+    <string name="Inversion">Calcular Inversion</string>
+    <string name="interes">Plazo:</string>
+    <string name="tasa">Tasa Bruta:</string>
+    <string name="MontoIn">Monto Invertido:</string>
+    <string name="InteresB">Interes Bruto:</string>
+    <string name="Isr">ISR:</string>
+    <string name="TotalI">Total:</string>
+    <string-array name="Tipo_interes">
+        <item>Plazo</item>
+        <item>1 mes</item>
+        <item>3 meses</item>
+        <item>6 meses</item>
+        <item>12 meses</item>
+    </string-array>
+    <string name="int_can">Tasa bruta de interes</string>
+    <string name="mon_in">Monto</string>
+    <string name="porciento">0.00 %</string>
+    <string name="calcular">Calcular</string>
+    <string name="foro">Foros</string>
+    <string name="finversion">Foro Inversion</string>
+    <string name="fahorro">Foro Ahorro</string>
+    <string name="btAdd">Agregar</string>
+    <string name="pregunta">Aqui puedes escibir tu pregunta</string>
+    <string name="responder">Responder</string>
+    <string name="idp">ID:</string>
+    <string name="cal">Calificacion</string>
+    <string name="Res">Escribe tu respuesta</string>
+    <string name="Responder">Responder</string>
+    <string name="Usuario">Usuario:</string>
+    <string name="foroA">Foro Ahorro</string>
+    <string name="mis">Mis preguntas</string>
+    <string name="microgastosp">¿Qué son los microgastos?</string>
+    <string name="microgastosT"></string>
+    <string name="sitiosi">Sitios de <de> inversion</de></string>
+    <string name="cetes">Cetes</string>
+    <string name="Recuperar">Recuperar Contraseña</string>
+    <string name="Restablecer">Restablecer</string>
+    <string name="cetesinfo">En este sitios podras encontrar,titulos y tasas de interes emitidas por el Banco de Mexico, no se cobran comisiones y puedes invertir de manera directa en el. \n\n<sitio>Este sitio es recomendado por el asesor personal de la aplicacacion El Mtro. Francisco Javier Medina Ortega como uno de los mejores sitios para invertir</sitio></string>
+    <string name="sitios">Sitios</string>
+    <string name="encontrar">En este espacio ponemos a tu disposicion algunos sitios  donde puedes consultar tasas de interes para realizar inversiones a plazo fijo</string>
+    <string name="Envio">Se enviara a tu correo un enlace para que puedas restablecer tu contraseña</string>
+    <string name="pre">Pregunta:</string>
+    <string name="res">Respuesta:</string>
+    <string name="Notificacion">Noificacion Personalizada</string>
+    <string name="Hora">00:00</string>
+    <string name="Diaria">Notificación Diaria Ahorro</string>
+    <string name="note">Notificaciones</string>
+    <string name="guar">Notificaciones Guardadas</string>
+    <string-array name="tiponotificacion">
+        <item>Tipo de Notificación</item>
+        <item>Balance</item>
+        <item>Inversion</item>
+        <item>Ahorro</item>
+        <item>Microgastos</item>
+    </string-array>
+    <string name="eliminar">Eliminar</string>
+    <string name="educacion">Apoyo Educativo</string>
+    <string name="qM">¿Microgastos?</string>
+    <string name="qA">¿Ahorro?</string>
+    <string name="qI">¿Inversión?</string>
+    <string name="qS">Finanzas Sanas</string>
+    <string name="qF">Finanzas Personales</string>
+
+</resources>
