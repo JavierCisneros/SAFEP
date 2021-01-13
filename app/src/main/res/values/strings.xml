@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">SAFEP</string>
+    <string name="nombre">Sistema de Apoyo Educativo de Finanzas Personales</string>
+    <string name="enter_email">usuario@gmail.com</string>
+    <string name="enter_password">Ingrese una contraseña</string>
+    <string name="enter_name">Ingrese tu nombre</string>
+    <string name="usuario">Registrar usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="not">Notificaciones</string>
+    <string name="Gastos">Gastos</string>
+    <string name="Ingresos">Ingresos</string>
+    <string name="Balance">Balance</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+    <string name="menu_home">MicroGastos</string>
+    <string name="menu_gallery">Graficos</string>
+    <string name="menu_slideshow">Ahorro</string>
+    <string name="menu_tools">Inversion</string>
+    <string name="menu_share">Foro</string>
+    <string name="menu_send">Educación</string>
+    <string name="name">Nombre:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="botonRegistro">Registrarse</string>
+    <string-array name="Categorias">
+        <item>Categoria</item>
+        <item>Comida</item>
+        <item>Transporte</item>
+        <item>Entretenimiento</item>
+        <item>Cigarrillos</item>
+        <item>Cafe</item>
+        <item>Mascota</item>
+        <item>Regalos</item>
+        <item>Personal</item>
+        <item>Golosinas</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="Ingresos">
+        <item>Categoria</item>
+        <item>Salario</item>
+        <item>Premios</item>
+        <item>Ventas</item>
+        <item>Inversiones</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>Gastos</item>
+        <item>Ingresos</item>
+    </string-array>
+    <string name="Monto">$ 0.00</string>
+    <string name="AddS">Añadir</string>
+    <string name="AddE">Añadir Ingreso</string>
+    <string name="setDate">Aceptar</string>
+    <string name="Month">Mes</string>
+    <string name="Day">Día</string>
+    <string name="Year">Año</string>
+    <string name="Fecha">29/06/2001</string>
+    <string name="Refresh">Mostrar</string>
+    <string name="Lista">Lista del dia</string>
+    <string name="Bal">Balance del mes</string>
+    <string name="Total">Total dia:</string>
+    <string name="GraficasDia">Graficas del dia</string>
+    <string name="NombreAhorro">Planes de ahorro</string>
+    <string name="FinAhorro">Fecha de termino del plan</string>
+    <string name="CantidadAhorro">Cantidad a ahorrar</string>
+    <string name="GenPlan">Crear Plan</string>
+    <string name="Agregar">Guardar</string>
+    <string name="Inversion">Calcular Inversion</string>
+    <string name="interes">Plazo:</string>
+    <string name="tasa">Tasa Bruta:</string>
+    <string name="MontoIn">Monto Invertido:</string>
+    <string name="InteresB">Interes Bruto:</string>
+    <string name="Isr">ISR:</string>
+    <string name="TotalI">Total:</string>
+    <string-array name="Tipo_interes">
+        <item>Plazo</item>
+        <item>1 mes</item>
+        <item>3 meses</item>
+        <item>6 meses</item>
+        <item>12 meses</item>
+    </string-array>
+    <string name="int_can">Tasa bruta de interes</string>
+    <string name="mon_in">Monto</string>
+    <string name="porciento">0.00 %</string>
+    <string name="calcular">Calcular</string>
+    <string name="foro">Foros</string>
+    <string name="finversion">Foro Inversion</string>
+    <string name="fahorro">Foro Ahorro</string>
+    <string name="btAdd">Agregar</string>
+    <string name="pregunta">Aqui puedes escibir tu pregunta</string>
+    <string name="responder">Responder</string>
+    <string name="idp">ID:</string>
+    <string name="cal">Calificacion</string>
+    <string name="Res">Escribe tu respuesta</string>
+    <string name="Responder">Responder</string>
+    <string name="Usuario">Usuario:</string>
+    <string name="foroA">Foro Ahorro</string>
+    <string name="mis">Mis preguntas</string>
+    <string name="microgastosp">¿Qué son los microgastos?</string>
+    <string name="microgastosT"></string>
+    <string name="sitiosi">Sitios de <de> inversion</de></string>
+    <string name="cetes">Cetes</string>
+
+    <string name="cetesinfo">En este sitios podras encontrar,titulos y tasas de interes emitidas por el Banco de Mexico, no se cobran comisiones y puedes invertir de manera directa en el. \n\n<sitio>Este sitio es recomendado por el asesor personal de la aplicacacion El Mtro. Francisco Javier Medina Ortega como uno de los mejores sitios para invertir</sitio></string>
+    <string name="sitios">Sitios</string>
+    <string name="encontrar">En este espacio ponemos a tu disposicion algunos sitios  donde puedes consultar tasas de interes para realizar inversiones a plazo fijo</string>
+
+    <string name="pre">Pregunta:</string>
+    <string name="res">Respuesta:</string>
+    <string name="Notificacion">Noificacion Personalizada</string>
+    <string name="Hora">00:00</string>
+    <string name="Diaria">Notificación Diaria Ahorro</string>
+    <string name="note">Notificaciones</string>
+    <string name="guar">Notificaciones Guardadas</string>
+    <string-array name="tiponotificacion">
+        <item>Tipo de Notificación</item>
+        <item>Balance</item>
+        <item>Inversion</item>
+        <item>Ahorro</item>
+    </string-array>
+    <string name="eliminar">Eliminar</string>
+    <string name="educacion">Educación Financiera Personal</string>
+    <string name="qM">¿Microgastos?</string>
+    <string name="qA">¿Ahorro?</string>
+    <string name="qI">¿Inversión?</string>
+    <string name="qS">Finanzas Sanas</string>
+    <string name="qF">Finanzas Personales</string>
+    <string name="qC">Conceptos Principales</string>
+    <string name="queF">¿Qué son las finanzas personales?</string>
+    <string name="sonF">Las FINANZAS PERSONALES se refieren a la administración del dinero de las personas y cada quien es responsable de su manejo.</string>
+    <string name="porF">Son todo lo relacionado a la administración de nuestro dinero; tienen que ver con todas las áreas de nuestra vida donde se maneja: ingresos, egresos, ahorros, inversiones, manejo del efectivo.</string>
+    <string name="citaF">(«Aprendiendo de finanzas», s. f.)</string>
+    <string name="porF2">Son importantes debido a que gracias a la planeacion y administracion de estas, podras analizar tu situacion actual, elegir alternativas y tomar decisiones a partir de esto, para tener un futuro mejor, donde
+    tu puedas tener mayores recursos económicos y una independencia financiera, que no dependa de bancos o ningun organismo financiera y puedas acceder a ellos sin necesidad de requerir un prestamo que podria ocacionar endeudamiento, que terminaria siendo
+    perjudicial para tu económia.</string>
+    <string name="impF">¿Por qué son importantes?</string>
+    <string name="citaF2">(Real Mx, 2017)</string>
+    <string name="micro">Microgastos</string>
+    <string name="qSM">¿Qué son los microgastos?</string>
+    <string name="qSM2">Los microgastos o gastos hormiga son pequeños gastos que no son realmente necesarios y que hacemos de manera reiterada y casi inconsciente ya que no tenemos en cuenta su efecto en nuestro presupuesto.</string>
+    <string name="qSM3">Hacerlos dia con dia pueden parecer insignificantes individualmente, pero que al ser sumados en un periodo de tiempo pueden representar un gasto significativo.</string>
+    <string name="qsM4">El principal método para evitar los gastos hormiga consiste en tener en cuenta cuáles son estos gastos, y registrar en una libreta cuando se están realizando, todas las veces que se haga. A lo largo del mes se puede hacer la cuenta de cuánto se habría ahorrado si se evitaran estos gastos y se pensará ¿eran realmente necesarios? ¿de qué me sirvieron?</string>
+    <string name="citaqsM">(Soto, 2020)</string>
+    <string name="citaqsM2">(Roldán, 2020)</string>
+    <string name="porM">Es por ellos que ponemos a tu dispocision el modulo de microgastos, de esta forma podras tener un registro de tus gastos e ingresos de manera eficiente, y así podras saber cual es el balance de tu mes que significa cuanto dinero haz obtenido y cuanto gastado,
+    lo que te permitira ser conciente de como has gastado tu dinero y ademas podras observarlo de manera grafica en el espacio de graficas.</string>
+    <string name="ahorro">Ahorro</string>
+    <string name="qeA">"¿Qué es el ahorro?"</string>
+    <string name="qeA2">Se refiere al porcentaje de nuestro ingreso que apartamos para guardarlo y que pueda ser utilizado en un futuro</string>
+    <string name="citaA">(elEconomista.es, s. f.)</string>
+    <string name="qeA3">¿Por qué es importante ahorrar?</string>
+    <string name="qeA4">Al momento de ahorrar es importante que tengas definido cuál es el propósito de guardar ese dinero: para vacacionar con la familia, para pagar el enganche de una casa o un auto, para la vejez, etc., de esta manera será más fácil determinar el monto y plan de ahorro a seguir</string>
+    <string name="qeA5">Para que tus prácticas de ahorro sean exitosas debes ser realista con tus finanzas y no establecer expectativas demasiado altas que no puedas cumplir. Cuando fijas metas de ahorro fuera de tu realidad financiera, puedes perder la motivación porque no es posible conseguirlas.</string>
+    <string name="citaA2">(«Revista PSD», 2016)</string>
+    <string name="qeA6">Para crear un plan de ahorro ajustado a tus necesidades puedes utilizar el modulo ahorro donde podras establcer una fecha limite y una cantidad a ahorrar, que te dara como resultado un plan que te dira cuanto deberas ahorrar por dis y durante cuantos dias para obtener llegar a tu meta.</string>
+    <string name="qI1">Inversiones</string>
+    <string name="qI2">¿Qué son las inversiones?</string>
+    <string name="qI3">Una inversión es una cantidad limitada de dinero que se pone a disposición de terceros, de una empresa o de un conjunto de acciones, con la finalidad de que se incremente con las ganancias que genere ese proyecto empresarial.</string>
+    <string name="citaI">(BBVA, 2017)</string>
+    <string name="qI4">¿Por qué es importante invertir?</string>
+    <string name="qI5">La inversión es un movimiento económico muy sencillo. Si somos capaces de ahorrar una cantidad de dinero al mes y destinarla a la inversión, con el paso del tiempo veremos cómo ha aumentado nuestro capital sin ningún esfuerzo extra.</string>
+    <string name="qI6">Invertir es una decisión seria debe mediatarse ya que puede generar ganancias, pero si el dinero está mal invertido también puede generar pérdidas, antes de realizar una inversión es importante ver donde queremos destinar nuestros fondos y ser conscientes de qué riesgos puede correr nuestro dinero.</string>
+    <string name="citaI2">(Villa, 2018)</string>
+    <string name="qI8">El asesor de nuestra aplicacion recomienda que si buscas invertir tu dinero ahorrado la forma mas facil de hacerlo es invertir mediante instrumentos financieros como lo son las inversiones a plazo fijo que puedes encontrar en tu banco y en algunos sitios web, en el modulo inversiones de la app puedes calcular inversiones a plazo fijo que te dara como resultado cuales serian las ganacias de tu inversion
+    contemplando el ISR retenido de 20% segun la ley vigente para inversiones a plazo fijo en 2020 </string>
+    <string name="qI7">En el modulo  inversiones de la aplicacion puedes encontrar una calucladora de inversiones a plazo fijo, </string>
+    <string name="qC1"></string>
+</resources>

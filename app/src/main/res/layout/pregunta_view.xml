@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="74dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/Usuario" />
+
+            <TextView
+                android:id="@+id/tvUsuario"
+                android:layout_width="252dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="262dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/idp" />
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="313dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="0"
+            android:text="@string/pre"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvPregunta"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/cal" />
+
+        <TextView
+            android:id="@+id/tvCal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="TextView" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="322dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/Spinner_Tipo"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:entries="@array/Tipo" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="232dp"
+                android:layout_height="46dp"
+                android:entries="@array/Categorias" />
+
+            <EditText
+                android:id="@+id/Monto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/Monto"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateC"
+                android:layout_width="202dp"
+                android:layout_height="40dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/Fecha"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/AddS" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Bal"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/catTot5"
+                android:layout_width="220dp"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/Gastos"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/catTot6"
+                android:layout_width="220dp"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/Ingresos"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/catTot4"
+                android:layout_width="220dp"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/Balance"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/totalGastos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:filterTouchesWhenObscured="true"
+                android:gravity="center"
+                android:hint="@string/Monto"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:text="@string/Monto"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <EditText
+                android:id="@+id/totalIngreso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:filterTouchesWhenObscured="true"
+                android:gravity="center"
+                android:hint="@string/Monto"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:text="@string/Monto"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <EditText
+                android:id="@+id/totalBal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:filterTouchesWhenObscured="true"
+                android:gravity="center"
+                android:hint="@string/Monto"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:text="@string/Monto"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="220dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:text="@string/Lista"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Refresh"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="321dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="112dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintVertical_bias="0.196">
+
+        <ListView
+            android:id="@+id/LvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="259dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/CatTot"
+                android:layout_width="220dp"
+                android:layout_height="34dp"
+                android:enabled="false"
+                android:text="@string/Total"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/TotalT"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:filterTouchesWhenObscured="true"
+                android:hint="@string/Monto"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:text="@string/Monto"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="112dp"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_menu_month"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

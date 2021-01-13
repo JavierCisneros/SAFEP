@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430220277245",
+    "firebase_url": "https://safepdb-33f2a.firebaseio.com",
+    "project_id": "safepdb-33f2a",
+    "storage_bucket": "safepdb-33f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430220277245:android:31c8cc0eeb17e877f3d594",
+        "android_client_info": {
+          "package_name": "com.movil.safep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430220277245-6bpqi1dn5b9b4a6mv930mm715mu882h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.movil.safep",
+            "certificate_hash": "1664784bcdf62c242e00332d0a20957fdfdf68c3"
+          }
+        },
+        {
+          "client_id": "430220277245-0tdoglep3icua7c0innqv2cpich07279.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGR1wbuu0L_R25nuR7FQs-YSVNOmyOTvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430220277245-0tdoglep3icua7c0innqv2cpich07279.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
